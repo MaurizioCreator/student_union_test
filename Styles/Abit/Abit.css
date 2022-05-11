@@ -1,0 +1,190 @@
+.steps {
+    margin-top: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.steps .abit_container {
+    width: calc(100vw - 80px);
+}
+
+.steps .head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.steps .abit_container .head h2 {
+    margin: 0;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 57px;
+    text-align: left;
+    color: #1E4391;
+}
+
+.steps .abit_container .head .switcher {
+    display: flex;
+    align-items: center;
+}
+
+.steps .abit_container .head .switcher h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+}
+
+.steps .abit_container .head .switcher .switch {
+    position: relative;
+    display: inline-block;
+    width: 54px;
+    height: 26px;
+    margin: 0 20px;
+}
+
+.steps .abit_container .head .switcher .switch input {display:none;}
+
+.steps .abit_container .head .switcher .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1E4391;;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.steps .abit_container .head .switcher .slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.steps .abit_container .head .switcher input:checked + .slider {
+    background-color: #1E4391;
+}
+
+.steps .abit_container .head .switcher input:focus + .slider {
+    box-shadow: 0 0 1px #1E4391;
+}
+
+.steps .abit_container .head .switcher input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.steps .abit_container .head .switcher .slider.round {
+    border-radius: 34px;
+}
+
+.steps .abit_container .head .switcher .slider.round:before {
+    border-radius: 50%;
+}
+
+.steps .abit_container .timeline {
+    display: flex;
+    padding-left: 20px;
+    margin-top: 50px;
+}
+
+.steps .abit_container .timeline .timeline_item {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 330px;
+    margin-right: 34px;
+}
+
+
+.steps .abit_container .timeline .timeline_item .timeline_steps {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border-left: #1E4391 solid 2px;
+    padding-left: 30px;
+    list-style: none;
+}
+
+.steps .abit_container .timeline .timeline_item .timeline_steps_red {
+    border-left: #EF302B solid 2px;
+}
+
+.steps .abit_container .timeline .timeline_item .sphere {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: '1';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 4px;
+    left: -19px;
+    background: #1E4391;
+    border: 2px solid #1E4391;
+    color: white;
+    border-radius: 50px;
+    z-index: 2;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+
+}
+
+.steps .abit_container .timeline .timeline_item .sphere_red {
+    background:#EF302B;
+    border: 2px solid #EF302B;;
+}
+
+.steps .abit_container .timeline .timeline_item .timeline_steps li {
+    position: relative;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.steps .abit_container .timeline .timeline_item .timeline_steps li::after {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 1px;
+    left: -40px;
+    background: #ffffff;
+    border: 2px solid #1E4391;
+    color: white;
+    border-radius: 50px;
+    z-index: 1;
+}
+
+.steps .abit_container .timeline .timeline_item .timeline_steps li:last-child {
+    margin: 0;
+}
+
+.steps .abit_container .timeline .timeline_item .dope .period {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #666666;
+    margin-bottom: 11px;
+    padding-left: 30px;
+}
+
+.steps .abit_container .timeline .timeline_item .dope .period .days {
+    color: #1E4391;
+    opacity: 0.8;
+}

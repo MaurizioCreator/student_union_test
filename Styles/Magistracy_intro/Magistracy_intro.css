@@ -1,0 +1,86 @@
+.magistracy_intro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url("../../Assets/image/background.jpg") no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.magistracy_intro h1 {
+    margin: 0;
+}
+
+.magistracy_intro .vector {
+    width: 100vw;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.magistracy_intro .vector img {
+    width: 100%;
+}
+
+.magistracy_intro .text {
+    display: flex;
+    align-items: end;
+    width: calc(100% - 80px);
+    padding-bottom: 80px;
+    color: white;
+}
+
+.magistracy_intro .text .main_text_block {
+    width: 880px;
+    height: 237px;
+    margin-right: 7vw;
+}
+
+.magistracy_intro .text .main_text_block h1 {
+    font-size: 96px;
+    font-weight: 600;
+    line-height: 84px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+}
+
+.magistracy_intro .text .main_text_block h2 {
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 57px;
+}
+
+.magistracy_intro .text .description_text_block {
+    width: 420px;
+    height: 190px;
+}
+
+.magistracy_intro .text .description_text_block p {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: left;
+    margin: 0;
+}
+
+.magistracy_intro .text .description_text_block a {
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #ffffff, #ffffff);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 100% 2px;
+    transition: background-size .35s ease;
+}
+
+.magistracy_intro .text .description_text_block a:hover {
+    background-size: 50% 2px;
+}

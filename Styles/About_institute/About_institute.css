@@ -1,0 +1,77 @@
+.about {
+    display: flex;
+    width: 100vw;
+    height: 435px;
+    margin-top: 120px;
+}
+
+.about .about_description {
+    width: 370px;
+    margin-left: 54px;
+    margin-right: 70px;
+}
+
+.about .about_description h2 {
+    margin: 0;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 57px;
+    text-align: left;
+    color: #1E4391;
+}
+
+.about .about_description p {
+    margin: 24px 0;
+}
+
+.about .about_description a {
+    display: inline-block;
+    margin-bottom: 41px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    color: #1E4391;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #1E4391, #1E4391);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 100% 2px;
+    transition: background-size .35s ease;
+}
+
+.about .about_description a:hover {
+    background-size: 50% 2px;
+}
+
+.about .stats {
+    width: 65vw;
+}
+
+.about .stats .images {
+
+}
+
+.about .stats .institute_statistics {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.about .stats .institute_statistics .stats_item {
+    width: 320px;
+}
+
+.about .stats .institute_statistics .stats_item span {
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 57px;
+    text-align: left;
+    color: #1E4391;
+}
+
+.about .stats .institute_statistics .stats_item .line {
+    width: 100%;
+    height: 8px;
+    background: #1E4391;
+}
